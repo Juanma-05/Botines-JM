@@ -48,3 +48,14 @@
     margin:1rem;
     font-family: 'Oswald', sans-serif;
 }
+
+#fondo{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 90vh;
+    background: url("../Multimedia/fondo2.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: white;
+}
