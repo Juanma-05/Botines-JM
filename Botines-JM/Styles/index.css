@@ -7,35 +7,81 @@
 
 
 
-.logo-titulo, .barraprincipal{
+#seccionprincipal{
     display: flex;
     flex-direction: row;
-    align-items: center;
+    justify-content: space-between;
     font-family: 'Oswald', sans-serif;
-    background: linear-gradient(to right, rgb(51, 51, 221), rgb(232, 93, 4));
+    background: black;
 
 }
 
+.barraprincipal{
+    display: flex;
+    flex-direction: row;
+}
+
+.logo-titulo{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin: 0rem 0.5rem 0rem 3rem;
+
+}
+
+.titulo{
+    color:white;
+    margin-left: 0.7rem;
+}
 
 
 .logo{
     border-radius: 60%;
     max-width: 70px;
-    margin: 0rem 0.5rem 0rem 3rem;
+}
+
+
+.iniciosesion{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 0.9rem 2rem 0.5rem 0rem;
 }
 
 .logosesion{
+    width: 5rem;
     border-radius: 10%;
-    max-width: 60px;
-    margin: 0.5rem 1rem 0rem 61rem;
 }
 
-.linav{
-    margin: 0rem 1rem 0.5rem 1rem;
+.sesion{
+    color: white;
+    margin-top: 1rem;
+    margin-bottom: 0.9rem;
     list-style-type: none;
-    margin-left: 60rem;
+
 
 }
+
+.carrito{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 0rem 5rem 0.5rem 0rem;
+
+}
+
+.logocarrito{
+    width: 5rem;
+    border-radius: 60%;
+}
+
+.carro{
+    color: white;
+    list-style-type: none;
+    margin-left: 0.7rem;
+}
+
+
 
 .barrasecundaria{
     display: flex;
@@ -56,6 +102,7 @@
     justify-content: center;
     height: 110vh;
     background: url("../Multimedia/fondo2.jpg");
+
     background-repeat: no-repeat;
     background-size: cover;
     color: white;
